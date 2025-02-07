@@ -2,16 +2,16 @@
 
 Architectural flow diagram:
 
-Kafka (Azure Event Hubs)
+[ Kafka (Azure Event Hubs) ]
         |
         v
-Azure Data Lake (Raw Data)
+[ Azure Data Lake (Raw Data) ]
         |
         v
-PySpark (Databricks - Streaming Processing)
+[ PySpark (Databricks - Streaming Processing) ]
         |
         v
-Facebook Prophet (Forecasting)
+[ Facebook Prophet (Forecasting) ]
 
 
 Steps for deployment:
