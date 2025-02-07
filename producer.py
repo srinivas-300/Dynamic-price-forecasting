@@ -6,7 +6,7 @@ import time
 
 conf = {'bootstrap.servers': 'YOUR_EVENT_HUB_ENDPOINT', 'security.protocol': 'SASL_SSL',
         'sasl.mechanisms': 'PLAIN', 'sasl.username': '$ConnectionString',
-        'sasl.password': 'YOUR_EVENT_HUB_CONNECTION_STRING'}
+        'sasl.password': ''}
 
 producer = Producer(conf)
 
