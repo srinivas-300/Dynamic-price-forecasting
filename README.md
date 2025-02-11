@@ -1,4 +1,4 @@
-# Dynamic-price-forecasting
+# Product-sales-forecasting
 
 Architectural flow diagram:
 
